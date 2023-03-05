@@ -1,8 +1,14 @@
 import React from 'react'
 
-const TaskPage = () => {
+const TaskPage = (props) => {
+  console.log("Props holo....", props);
   return (
-    <div>TaskPage</div>
+    <div>
+      <h3>TASK PAGE</h3>
+      {
+        props.ID
+      }
+    </div>
   )
 }
 
