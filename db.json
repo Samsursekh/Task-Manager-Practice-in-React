@@ -1,0 +1,124 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "email": "sam@gmail.com",
+      "userName": "sam",
+      "password": "sam@123",
+      "confirmPassword": "sam@123",
+      "taskOfTheDay": [
+        "Attend Mocks",
+        "Attend Interviews",
+        "Revise React"
+      ]
+    },
+    {
+      "id": 2,
+      "email": "tittu@gmail.com",
+      "userName": "tittu",
+      "password": "sam@123",
+      "confirmPassword": "sam@123",
+      "taskOfTheDay": [
+        "Attend Mocks",
+        "Attend Interviews",
+        "Revise React"
+      ]
+    },
+    {
+      "id": 3,
+      "email": "Mali@gmail.com",
+      "userName": "Mali",
+      "password": "sam@123",
+      "confirmPassword": "sam@123",
+      "taskOfTheDay": [
+        "Attend Mocks",
+        "Attend Interviews",
+        "Revise React"
+      ]
+    },
+    {
+      "id": 4,
+      "email": "Ramu@gmail.com",
+      "userName": "Ramu",
+      "password": "sam@123",
+      "confirmPassword": "sam@123",
+      "taskOfTheDay": [
+        "Attend Mocks",
+        "Attend Interviews",
+        "Revise React"
+      ]
+    },
+    {
+      "id": 5,
+      "email": "Madhu@gmail.com",
+      "userName": "Madhu",
+      "password": "sam@123",
+      "confirmPassword": "sam@123",
+      "taskOfTheDay": [
+        "Attend Mocks",
+        "Attend Interviews",
+        "Revise React"
+      ]
+    },
+    {
+      "id": 6,
+      "email": "Jadu@gmail.com",
+      "userName": "Jadu",
+      "password": "sam@123",
+      "confirmPassword": "sam@123",
+      "taskOfTheDay": [
+        "Attend Mocks",
+        "Attend Interviews",
+        "Revise React"
+      ]
+    },
+    {
+      "id": 7,
+      "email": "Ram@gmail.com",
+      "userName": "Ram",
+      "password": "sam@123",
+      "confirmPassword": "sam@123",
+      "taskOfTheDay": [
+        "Attend Mocks",
+        "Attend Interviews",
+        "Revise React"
+      ]
+    },
+    {
+      "id": 10,
+      "email": "jala@gmail.com",
+      "userName": "jala",
+      "password": "jala@123",
+      "confirmPassword": "jala@123",
+      "taskOfTheDay": [
+        "jala Mocks",
+        "jala Interviews",
+        "jala React"
+      ]
+    },
+    {
+      "email": "jangli@gmail.com",
+      "userName": "jangli",
+      "password": "jangli@123",
+      "confirmPassword": "jangli@123",
+      "taskOfTheDay": [
+        "jangli Mocks",
+        "jangli Interviews",
+        "jangli React"
+      ],
+      "id": 11
+    },
+    {
+      "email": "loha@gmail.com",
+      "userName": "loha",
+      "password": "loha@123",
+      "confirmPassword": "loha@123",
+      "id": 12,
+      "taskOfTheDay": [
+        "loha Mocks",
+        "loha Interviews",
+        "loha React"
+      ]
+    }
+  ]
+}
