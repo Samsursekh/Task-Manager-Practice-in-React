@@ -33,3 +33,9 @@ nav{
     margin-bottom: 5px;
 }
 
+#taskListDiv{
+    width: 145px;
+    border: 2px solid teal;
+    margin: auto;
+    margin-top: 20px;
+}

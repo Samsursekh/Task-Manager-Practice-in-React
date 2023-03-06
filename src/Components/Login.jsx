@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../Components/Style.css";
 import { useNavigate } from "react-router-dom";
-import TaskPage from "./TaskPage";
 
 const Login = () => {
   const [userData, setUserData] = useState(null);
@@ -9,7 +8,6 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
   const [success, setSuccess] = useState("");
-  let [taskID, setTaskID] = useState("");
   const navigate = useNavigate();
 
   const getDataFunction = () => {
@@ -30,19 +28,17 @@ const Login = () => {
     getDataFunction();
   }, []);
 
-  // let taskID;
   const handleSubmit = (event) => {
     event.preventDefault();
-
     // Find the user in the user data with the matching username and password
     const user = userData.find((user) => user.userName === userName && user.password === password);
-    
-  //  let taskID;
+   let taskID;
     if (user) {
       //sam@123
       alert(user.id, "id holo");
       taskID = user.id;
       console.log(taskID, "Task ID")
+      localStorage.setItem("USER__ID", JSON.stringify(taskID));
       setErrorMessage("");
       setSuccess("Login Successfully !");
       setTimeout(() => {
@@ -65,7 +61,6 @@ const Login = () => {
     <div>
       <h3>Login Page</h3>
       <form action="" id="mySignupForm" onSubmit={handleSubmit}>
-      <TaskPage ID={taskID} />
 
         <input
           type="text"

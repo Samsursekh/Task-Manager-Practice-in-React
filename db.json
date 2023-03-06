@@ -97,27 +97,33 @@
       ]
     },
     {
-      "email": "jangli@gmail.com",
-      "userName": "jangli",
-      "password": "jangli@123",
-      "confirmPassword": "jangli@123",
-      "taskOfTheDay": [
-        "jangli Mocks",
-        "jangli Interviews",
-        "jangli React"
-      ],
+      "taskOfTheDay": "Learn React Learn Java Learn Web Development  Learn Python",
       "id": 11
     },
     {
       "email": "loha@gmail.com",
-      "userName": "loha",
+      "userName": "Loha",
       "password": "loha@123",
       "confirmPassword": "loha@123",
       "id": 12,
       "taskOfTheDay": [
         "loha Mocks",
         "loha Interviews",
-        "loha React"
+        "loha React",
+        "loha Backend",
+        "loha DSA Mocks"
+      ]
+    },
+    {
+      "email": "eve.holt@reqres.in",
+      "userName": "eve.holt@reqres.in",
+      "password": "1321321323",
+      "confirmPassword": "1321321323",
+      "id": 13,
+      "taskOfTheDay": [
+        "holt Mocks",
+        "holt Interviews",
+        "holt React"
       ]
     }
   ]
